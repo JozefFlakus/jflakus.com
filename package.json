@@ -1,0 +1,52 @@
+{
+  "name": "jflakus",
+  "version": "2.0.0",
+  "description": "Józef Flakus - personal portfolio",
+  "author": "Jozef Flakus <hello@jflakus.com>",
+  "dependencies": {
+    "emotion": "^9.0.2",
+    "emotion-server": "^9.0.2",
+    "gatsby": "^1.9.204",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-emotion": "^1.1.12",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-typescript": "^1.4.10",
+    "react-helmet": "^5.2.0",
+    "@types/node": "^8.0.7",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^22.4.2",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^22.4.1",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1"
+  },
+  "keywords": [
+    "gatsby",
+    "typescript"
+  ],
+  "main": "n/a",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "rimraf dist",
+    "lint": "tslint --config tslint.json --project tsconfig.json",
+    "test": "NODE_ENV=test jest --expand",
+    "test:watch": "NODE_ENV=test jest --expand --onlyChanged --watch",
+    "test:coverage": "NODE_ENV=test jest --runInBand --coverage",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JozefFlakus/jflakus.com.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JozefFlakus/jflakus.com/issues"
+  },
+  "homepage": "https://github.com/JozefFlakus/jflakus.com#readme"
+}
