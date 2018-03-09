@@ -6,5 +6,11 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-typescript',
     'gatsby-plugin-emotion',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`inconsolata`]
+      }
+    }
   ],
 };
