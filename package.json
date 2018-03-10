@@ -24,6 +24,8 @@
     "@types/jest": "^22.2.0",
     "husky": "^0.14.3",
     "jest": "^22.4.2",
+    "jest-emotion": "^9.0.0",
+    "react-test-renderer": "^15.6.2",
     "rimraf": "^2.6.2",
     "ts-jest": "^22.4.1",
     "tslint": "^5.9.1",

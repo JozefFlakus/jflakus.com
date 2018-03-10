@@ -4,11 +4,13 @@
     "**/.DS_Store": true,
     ".cache": true,
     "public": true,
+    "**/__snapshots__": true,
   },
   "search.exclude": {
     "**/node_modules": true,
     ".cache": true,
     "public": true,
+    "**/__snapshots__": true,
   },
   "typescript.tsdk": "node_modules/typescript/lib",
 }
