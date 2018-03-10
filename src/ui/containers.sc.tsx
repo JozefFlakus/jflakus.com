@@ -1,5 +1,8 @@
 import styled, { ColorBg } from '../styles/theme';
 
+// Container
+// -----------------
+
 interface ContainerProps {
   bg?: ColorBg;
   spaced?: boolean;
@@ -11,6 +14,9 @@ export const Container = styled<ContainerProps, 'div'>('div')(
     backgroundColor: color || theme.colorBg.white,
   })
 );
+
+// Container-Main
+// -----------------
 
 export const ContainerMain = styled<{}, 'div'>('div')(
   ({ theme }) => ({
