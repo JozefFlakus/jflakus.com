@@ -34,7 +34,6 @@
       true,
       120
     ],
-    "member-ordering": true,
     "no-arg": true,
     "no-bitwise": true,
     "no-console": false,
