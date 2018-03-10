@@ -3,10 +3,12 @@
     "**/.git": true,
     "**/.DS_Store": true,
     ".cache": true,
+    "public": true,
   },
   "search.exclude": {
     "**/node_modules": true,
     ".cache": true,
+    "public": true,
   },
   "typescript.tsdk": "node_modules/typescript/lib",
 }
