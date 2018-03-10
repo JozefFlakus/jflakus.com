@@ -1,5 +1,8 @@
 # jflakus.com
 
+[![Build Status](https://travis-ci.org/JozefFlakus/jflakus.com.svg?branch=develop)](https://travis-ci.org/JozefFlakus/jflakus.com)
+
+
 &nbsp;
 
 <p align="center">
