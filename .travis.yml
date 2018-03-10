@@ -17,5 +17,5 @@ install:
   - npm install
 
 script:
-  - nom run lint
+  - npm run lint
   - npm run test
