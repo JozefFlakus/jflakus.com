@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ThemeProvider, theme } from '../styles/theme';
+import { ThemeProvider, theme } from '../styles/theme.styles';
 import { ContainerMain } from '../ui/containers.sc';
 import '../styles/global';
 

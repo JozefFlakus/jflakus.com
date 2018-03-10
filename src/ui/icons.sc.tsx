@@ -1,4 +1,4 @@
-import styled from '../styles/theme';
+import styled from '../styles/theme.styles';
 
 // Iconn
 // -----------------

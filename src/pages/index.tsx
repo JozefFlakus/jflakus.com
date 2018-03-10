@@ -1,19 +1,14 @@
 import * as React from 'react';
-import { css } from 'react-emotion';
+import { center } from '../styles/utils.styles';
 import { Headline, SubHeadline } from '../ui/typography.sc';
-import { Icon } from '../ui/icons.sc';
 import { Container } from '../ui/containers.sc';
-
-const centerItems = css({
-  alignItems: 'center',
-  textAlign: 'center',
-});
+import { Icon } from '../ui/icons.sc';
 
 const IndexPage = () => (
   <main>
     <Container
       spaced={true}
-      className={centerItems}
+      className={center}
     >
       <Headline>
         jozef.flakus
