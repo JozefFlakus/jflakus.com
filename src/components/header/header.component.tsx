@@ -1,7 +1,7 @@
 import * as React from 'react';
-import styled from '../styles/theme.styles';
-import { center } from '../styles/utils.styles';
-import { SubHeadline } from './typography.ui';
+import styled from '../../styles/theme.styles';
+import { center } from '../../styles/utils.styles';
+import { SubHeadline } from '../typography';
 
 // Header
 // -----------------

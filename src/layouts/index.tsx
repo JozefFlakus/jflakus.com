@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { ThemeProvider, theme } from '../styles/theme.styles';
-import { ContainerMain } from '../ui/containers.ui';
-import { Header } from '../ui/header.ui';
-import { Footer } from '../ui/footer.ui';
+import { ContainerMain } from '../components/container';
+import { Header } from '../components/header';
+import { Footer } from '../components/footer';
 import { HeadFactory } from '../utils/head.util';
 
 import '../styles/global.styles';

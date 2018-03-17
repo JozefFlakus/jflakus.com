@@ -1,4 +1,4 @@
-import styled, { ColorBg } from '../styles/theme.styles';
+import styled, { ColorBg } from '../../styles/theme.styles';
 
 // Container
 // -----------------

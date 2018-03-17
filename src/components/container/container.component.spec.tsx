@@ -2,8 +2,8 @@ import * as React from 'react';
 import * as emotion from 'emotion';
 import { createSerializer } from 'jest-emotion';
 import * as renderer from 'react-test-renderer';
-import { Container } from './containers.ui';
-import { testWithTheme } from '../utils/test.util';
+import { Container } from './container.component';
+import { testWithTheme } from '../../utils/test.util';
 
 expect.addSnapshotSerializer(createSerializer(emotion));
 

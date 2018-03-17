@@ -1,4 +1,4 @@
-import styled, { FontSize } from '../styles/theme.styles';
+import styled, { FontSize } from '../../styles/theme.styles';
 
 // Headline
 // -----------------
