@@ -6,10 +6,10 @@ interface HeadOptions {
   canonical?: string;
 }
 
-export module HeadFactory {
+export const DOMAIN = 'jflakus.com';
+export const ROOT_TITLE = 'Józef Flakus - programmer / ninja';
 
-  const DOMAIN = 'jflakus.com';
-  const ROOT_TITLE = 'Józef Flakus - programmer / ninja';
+export module HeadFactory {
 
   const titleFactory = (title?: string) =>
     !!title
@@ -21,7 +21,7 @@ export module HeadFactory {
       ? `http://${DOMAIN}/${canonical}`
       : `http://${DOMAIN}`;
 
-  export const get = ({ title, canonical}: HeadOptions) => (
+  export const get = ({ title, canonical }: HeadOptions) => (
     <Helmet>
       <meta charSet={'utf-8'} />
       <title>{titleFactory(title)}</title>

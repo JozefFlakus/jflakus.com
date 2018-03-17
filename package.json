@@ -6,7 +6,6 @@
   "dependencies": {
     "@types/node": "^8.0.7",
     "@types/react": "^15.0.21",
-    "@types/react-dom": "^0.14.23",
     "emotion": "^9.0.2",
     "emotion-server": "^9.0.2",
     "emotion-theming": "^9.0.0",
@@ -22,6 +21,11 @@
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
+    "@types/react-dom": "^0.14.23",
+    "@types/react-test-renderer": "^16.0.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
     "husky": "^0.14.3",
     "jest": "^22.4.2",
     "jest-emotion": "^9.0.0",

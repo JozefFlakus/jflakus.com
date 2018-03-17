@@ -1,4 +1,5 @@
 module.exports = {
+  "setupTestFrameworkScriptFile": "./config/setup-tests.js",
   "transform": {
     "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
   },
