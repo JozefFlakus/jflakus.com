@@ -2,7 +2,6 @@
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
-    "**/__snapshots__": true,
     ".cache": true,
   },
   "search.exclude": {
