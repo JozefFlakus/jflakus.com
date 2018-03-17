@@ -16,7 +16,7 @@ const IndexPage = () => (
       <SubHeadline
         fontSize={'tiny'}
       >
-        programmer / @barista creator
+        programmer / ninja
       </SubHeadline>
       <Icon
         spacedTop={true}
