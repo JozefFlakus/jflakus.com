@@ -1,7 +1,7 @@
 import * as React from 'react';
-import styled from '../styles/theme.styles';
-import { Icon } from './icons.ui';
-import { center } from '../styles/utils.styles';
+import styled from '../../styles/theme.styles';
+import { center } from '../../styles/utils.styles';
+import { Icon } from '../icon';
 
 // Footer
 // -----------------
@@ -22,11 +22,11 @@ const FooterContainer = styled('footer')(
 export const Footer: React.SFC<{}> = () => (
   <FooterContainer className={center}>
     <Icon
-      src={require('../assets/img/icon-twitter.svg')}
+      src={require('../../assets/img/icon-twitter.svg')}
       spacedHorizontal={true}
     />
     <Icon
-      src={require('../assets/img/icon-linkedin.svg')}
+      src={require('../../assets/img/icon-linkedin.svg')}
       spacedHorizontal={true}
     />
   </FooterContainer>

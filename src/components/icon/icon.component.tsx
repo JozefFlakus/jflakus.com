@@ -1,6 +1,6 @@
-import styled from '../styles/theme.styles';
+import styled from '../../styles/theme.styles';
 
-// Iconn
+// Icon
 // -----------------
 
 interface IconProps {
