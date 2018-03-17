@@ -1,6 +1,6 @@
 import styled, { ThemedReactEmotionInterface } from 'react-emotion';
 import { ThemeProvider as EmothionThemingProvider } from 'emotion-theming';
-import { Color } from '../utils';
+import { Color } from '../utils/color.util';
 
 export const theme = {
   font: {

@@ -3,8 +3,6 @@
     "**/.git": true,
     "**/.DS_Store": true,
     ".cache": true,
-    "public": true,
-    "**/__snapshots__": true,
   },
   "search.exclude": {
     "**/node_modules": true,

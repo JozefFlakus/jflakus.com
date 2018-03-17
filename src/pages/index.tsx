@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { center } from '../styles/utils.styles';
-import { Headline, SubHeadline } from '../ui/typography.sc';
-import { Container } from '../ui/containers.sc';
-import { Icon } from '../ui/icons.sc';
+import { Headline, SubHeadline } from '../ui/typography.ui';
+import { Container } from '../ui/containers.ui';
+import { Icon } from '../ui/icons.ui';
 
 const IndexPage = () => (
   <main>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       <SubHeadline
         fontSize={'tiny'}
       >
-        programmer / @barista creator
+        programmer / ninja
       </SubHeadline>
       <Icon
         spacedTop={true}
