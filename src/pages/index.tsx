@@ -14,7 +14,7 @@ const IndexPage = () => (
         jozef.flakus
       </Headline>
       <SubHeadline
-        fontSize={'tiny'}
+        fontSize={'small'}
       >
         programmer / ninja
       </SubHeadline>

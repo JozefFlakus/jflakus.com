@@ -48,6 +48,7 @@
     "lint": "tslint --config tslint.json --project tsconfig.json",
     "test": "NODE_ENV=test jest --expand",
     "test:watch": "NODE_ENV=test jest --expand --onlyChanged --watch",
+    "test:snapshot:update": "NODE_ENV=test npm test -- -u",
     "test:coverage": "NODE_ENV=test jest --runInBand --coverage",
     "prepush": "npm run lint"
   },

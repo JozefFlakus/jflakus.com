@@ -72,8 +72,7 @@
       {
         "multiline": {
           "objects": "always",
-          "arrays": "always",
-          "functions": "never"
+          "arrays": "always"
         },
         "singleline": "never"
       }

@@ -10,7 +10,7 @@ interface ContainerProps {
 
 export const Container = styled<ContainerProps, 'div'>('div')(
   ({ theme, color, spaced }) => ({
-    padding: spaced ? theme.dimensions.module * 12 : 0,
+    padding: spaced ? '50% 0' : 0,
     backgroundColor: color || theme.colorBg.white,
   })
 );
