@@ -40,6 +40,11 @@ export const theme = {
   util: {
     lineColor: Color.hexToRGB('#484848', .2),
   },
+  anim: {
+    fast: '0.3s',
+    mid:  '0.6s',
+    slow: '1.0s',
+  },
 };
 
 export type Breakpoint = keyof typeof breakpoints;
