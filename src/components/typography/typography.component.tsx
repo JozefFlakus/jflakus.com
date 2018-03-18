@@ -19,7 +19,7 @@ const headlineFontSize = {
   big:     pfs('fontSize', [[bp.sm, 18], [bp.xl, fontSize.big]]),
   large:   pfs('fontSize', [[bp.sm, 20], [bp.xl, fontSize.large]]),
   huge:    pfs('fontSize', [[bp.sm, 24], [bp.xl, fontSize.huge]]),
-}
+};
 
 export const Headline = styled<HeadlineProps, 'h1'>('h1')(
   ({ theme, fontSize = 'huge', uppercase }) => ({

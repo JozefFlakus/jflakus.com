@@ -47,4 +47,4 @@ describe('#linearInterpolation', () => {
     expect(b).toBe(2.5);
   });
 
-})
+});
