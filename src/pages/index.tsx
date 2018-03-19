@@ -19,7 +19,7 @@ const IndexPage = () => (
         programmer / ninja
       </SubHeadline>
       <Icon
-        spacedTop={true}
+        spacedVertical={true}
         src={require('../assets/img/icon-lion.svg')}
       />
     </Container>

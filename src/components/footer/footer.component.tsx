@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from '../../styles/theme.styles';
-import { center } from '../../styles/utils.styles';
+import { center, hoverOpacity } from '../../styles/utils.styles';
 import { Icon } from '../icon';
 
 // Footer
@@ -21,13 +21,25 @@ const FooterContainer = styled('footer')(
 
 export const Footer: React.SFC<{}> = () => (
   <FooterContainer className={center}>
-    <Icon
-      src={require('../../assets/img/icon-twitter.svg')}
-      spacedHorizontal={true}
-    />
-    <Icon
-      src={require('../../assets/img/icon-linkedin.svg')}
-      spacedHorizontal={true}
-    />
+    <a
+      className={hoverOpacity}
+      href={'https://twitter.com/jozflakus'}
+      target={'_blank'}
+    >
+      <Icon
+        src={require('../../assets/img/icon-twitter.svg')}
+        spacedHorizontal={true}
+      />
+    </a>
+    <a
+      className={hoverOpacity}
+      href={'https://linkedin.com/in/jozflakus'}
+      target={'_blank'}
+    >
+      <Icon
+        src={require('../../assets/img/icon-linkedin.svg')}
+        spacedHorizontal={true}
+      />
+    </a>
   </FooterContainer>
 );

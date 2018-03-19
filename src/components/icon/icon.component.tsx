@@ -4,17 +4,16 @@ import styled from '../../styles/theme.styles';
 // -----------------
 
 interface IconProps {
-  spacedTop?: boolean;
-  spacedBottom?: boolean;
+  spacedVertical?: boolean;
   spacedHorizontal?: boolean;
 }
 
 export const Icon = styled<IconProps, 'img'>('img')(
-  ({ theme, spacedTop, spacedBottom, spacedHorizontal }) => ({
+  ({ theme, spacedVertical, spacedHorizontal }) => ({
     display: 'inline-block',
-    paddingTop: spacedTop ? theme.dimensions.module * 2 : 0,
-    paddingBottom: spacedBottom ? theme.dimensions.module * 2 : 0,
-    paddingLeft: spacedHorizontal ? theme.dimensions.module : 0,
-    paddingRight: spacedHorizontal ? theme.dimensions.module : 0,
+    padding: `
+      ${spacedVertical ? theme.dimensions.module * 2 : 0}px
+      ${spacedHorizontal ? theme.dimensions.module : 0}px
+    `,
   })
 );
