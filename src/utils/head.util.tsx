@@ -1,13 +1,17 @@
 import * as React from 'react';
+import { siteMetadata } from '../../gatsby-config.js';
 import { Helmet } from 'react-helmet';
+
+export const DOMAIN = siteMetadata.domain;
+export const ROOT_TITLE = siteMetadata.title;
+export const AUTHOR = siteMetadata.author;
+export const KEYWORDS = siteMetadata.keywords;
+export const DESCRIPTION = siteMetadata.description;
 
 interface HeadOptions {
   title?: string;
   canonical?: string;
 }
-
-export const DOMAIN = 'jflakus.com';
-export const ROOT_TITLE = 'Józef Flakus - programmer / ninja';
 
 export module HeadFactory {
 
@@ -26,6 +30,13 @@ export module HeadFactory {
       <meta charSet={'utf-8'} />
       <title>{titleFactory(title)}</title>
       <link rel={'canonical'} href={canonicalFactory(canonical)} />
+      <meta name="keywords" content={KEYWORDS}/>
+      <meta name="description" content={DESCRIPTION}/>
+      <meta name="author" content={AUTHOR}/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="msapplication-TileColor" content="#ffffff"/>
+      <meta name="msapplication-TileImage" content="/favicon//ms-icon-144x144.png"/>
+      <meta name="theme-color" content="#ffffff"/>
       <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png"/>
       <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png"/>
       <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png"/>
@@ -39,9 +50,6 @@ export module HeadFactory {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png"/>
       <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png"/>
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
-      <meta name="msapplication-TileColor" content="#ffffff"/>
-      <meta name="msapplication-TileImage" content="/favicon//ms-icon-144x144.png"/>
-      <meta name="theme-color" content="#ffffff"/>
     </Helmet>
   );
 
