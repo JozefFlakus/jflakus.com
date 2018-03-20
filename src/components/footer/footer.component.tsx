@@ -16,6 +16,7 @@ const FooterContainer = styled('footer')(
     right: 0,
     height: 100,
     backgroundColor: theme.colorBg.white,
+    zIndex: 10,
   })
 );
 
