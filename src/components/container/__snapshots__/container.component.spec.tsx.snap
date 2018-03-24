@@ -3,7 +3,6 @@
 exports[`<Container> renders correctly 1`] = `
 .emotion-0 {
   padding: 0;
-  background-color: #FFF;
 }
 
 <div

@@ -7,6 +7,7 @@ import { Icon } from '../components/icon';
 const IndexPage = () => (
   <main>
     <Container
+      bgColor={'white'}
       spaced={true}
       className={center}
     >

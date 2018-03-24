@@ -7,7 +7,10 @@ import { Image } from '../components/image';
 import { spacingBottom, filterGrayscale, hoverOpacity } from '../styles/utils.styles';
 
 const NotFoundPage = () => (
-  <Container spaced={true}>
+  <Container
+    bgColor={'white'}
+    spaced={true}
+  >
     <Headline>
       🐼 NOT FOUND
     </Headline>
@@ -17,7 +20,7 @@ const NotFoundPage = () => (
     <Link to={'/'}>
       <Image
         className={cx(spacingBottom, filterGrayscale, hoverOpacity)}
-        src={require('../assets/gifs/panda-fun.gif')}
+        src={require('../assets/gifs/homer.gif')}
       />
     </Link>
     <Text fontSize={'tiny'} align={'right'}>
