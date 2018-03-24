@@ -4,14 +4,14 @@ import styled, { ColorBg } from '../../styles/theme.styles';
 // -----------------
 
 interface ContainerProps {
-  bg?: ColorBg;
+  bgColor?: ColorBg;
   spaced?: boolean;
 }
 
 export const Container = styled<ContainerProps, 'div'>('div')(
-  ({ theme, color, spaced }) => ({
+  ({ theme, bgColor, spaced }) => ({
     padding: spaced ? '100px 0' : 0,
-    backgroundColor: color || theme.colorBg.white,
+    backgroundColor: !!(theme.colorBg) && theme.colorBg[bgColor],
   })
 );
 
