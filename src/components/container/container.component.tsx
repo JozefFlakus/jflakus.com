@@ -10,7 +10,7 @@ interface ContainerProps {
 
 export const Container = styled<ContainerProps, 'div'>('div')(
   ({ theme, color, spaced }) => ({
-    padding: spaced ? '50% 0' : 0,
+    padding: spaced ? '100px 0' : 0,
     backgroundColor: color || theme.colorBg.white,
   })
 );
@@ -25,6 +25,7 @@ export const ContainerMain = styled<{}, 'div'>('div')(
     justifyContent: 'center',
     position: 'relative',
     minHeight: '100vh',
+    padding: `0 ${theme.dimensions.module * 2}px`,
 
     '&::after': {
       content: `''`,
