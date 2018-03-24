@@ -1,5 +1,8 @@
 # jflakus.com
 
+[![Build Status](https://travis-ci.org/JozefFlakus/jflakus.com.svg?branch=develop)](https://travis-ci.org/JozefFlakus/jflakus.com)
+
+
 &nbsp;
 
 <p align="center">
@@ -14,7 +17,7 @@ Run `npm start` for a dev server. Navigate to `http://localhost:8000/`. The app 
 
 ## Build
 
-Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` to build the project. The build artifacts will be stored in the `public/` directory.
 
 ## Running unit tests
 
