@@ -24,6 +24,16 @@ export const Footer: React.SFC<{}> = () => (
   <FooterContainer className={center}>
     <a
       className={hoverOpacity}
+      href={'https://github.com/JozefFlakus'}
+      target={'_blank'}
+    >
+      <Icon
+        src={require('../../assets/img/icon-github.svg')}
+        spacedHorizontal={true}
+      />
+    </a>
+    <a
+      className={hoverOpacity}
       href={'https://twitter.com/jozflakus'}
       target={'_blank'}
     >
