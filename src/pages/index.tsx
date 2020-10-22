@@ -17,7 +17,7 @@ const IndexPage = () => (
       <SubHeadline
         fontSize={'small'}
       >
-        programmer / ninja
+        programmer / ninja / musician
       </SubHeadline>
       <Icon
         spacedVertical={true}
